@@ -6,4 +6,4 @@ RUN apk update && apk upgrade \
   && apk add bash \
   && rm -rf /var/cache/apk/* /tmp/*
 
-CMD ["/bin/bash"]
+CMD ["/bin/bash","-l"]
